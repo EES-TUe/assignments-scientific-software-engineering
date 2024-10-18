@@ -2,7 +2,7 @@
 
 ## Create repository
 
-For the leader of the team:
+For the team leader:
 
 * Go to [project template](https://github.com/EES-TUe/ees-scientific-software-engineering)
 * Click `Use this template` and `Create a new repository`.
@@ -13,7 +13,7 @@ For the leader of the team:
 
 ## Invite collaborator
 
-The lead of the team should invitor your teammate as [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
+The team leader should invite your teammate as [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
 
 The other teammate should accept the invitation.
 
