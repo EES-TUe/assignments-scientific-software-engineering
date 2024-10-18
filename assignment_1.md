@@ -10,7 +10,7 @@ For the team leader:
 * Open the file `pyproject.toml`.
 * Choose to edit the file.
 * In the `project` section, change the author `Tony Xiang` and email adress to your own one.
-  * Note: DO NOT change the other author `Peter Salemink` yet.
+  * **Note: DO NOT change the other author `Peter Salemink` yet.**
 * Now commit the changes.
   * Type a meaningful commit message.
   * You cannot commit directly to `main`. So choose a branch name and click `Propose changes`.
@@ -26,7 +26,7 @@ For the teammate:
 
 ## Changes in Local PC
 
-For both team members
+For both team members:
 
 * Clone the repository in your local WSL folder.
 * Go to the folder using `cd`, and open the folder using `vscode` by running `code .`.
@@ -38,12 +38,13 @@ For teammate:
   * In the `project` section, change the author `Peter Salemink` and email adress to your own one.
   * Save the file.
   * Switch to `vscode` version control tab.
-    * Create a new branch
-    * Commit the changes
-    * Push the new branch
+    * Create a new branch.
+    * Stage the changes of the files.
+    * Commit the changes.
+    * Push the new branch.
 * In GitHub webpage
-  * Go to pull request tab
-  * Create a new pull request
+  * Go to pull request tab.
+  * Create a new pull request.
     * Source branch is the one you created.
     * Target branch is `main`.
 
@@ -53,3 +54,9 @@ For team leader:
 * Review and approve the PR.
 * Merge the PR.
 * Delete the temporary branch.
+
+For both team members:
+
+* Go to `vscode` version control tool.
+* Pull/sync the latest changes in `main`.
+* Delete not needed local branches.
