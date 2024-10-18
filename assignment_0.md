@@ -23,6 +23,7 @@ Follow the [ruleset instructions](https://docs.github.com/en/repositories/config
 Specifically, use the following options:
 
 * Ruleset name: main protection
+* Enforcement status: active
 * Target branches: Add target -> include default branch
 * Enable the following rules
   * Restrict creations
