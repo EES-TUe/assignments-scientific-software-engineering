@@ -3,7 +3,7 @@
 In this assignment we are going to implement a simple function to calculate
 the root mean square(RMS) of an array.
 
-Mathemtically, given an array $[x_i],0 \le i < N$, the RMS value of the array is calculated as show below:
+Mathemtically, given an array $[x_i],0 \le i < N$, the RMS value of the array is calculated as shown below:
 
 $$
 \sqrt{\frac{1}{N} \sum_{i=0}^{N-1}x_i^2}
