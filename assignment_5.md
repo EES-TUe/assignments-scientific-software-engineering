@@ -157,7 +157,7 @@ You need some graph algorithms to implement the class. You can use (one of) the 
 * [`networkx`](https://networkx.org/)
 * [`scipy.sparse.csgraph`](https://docs.scipy.org/doc/scipy/reference/sparse.csgraph.html)
 
-Specifically you might need the algorithms of connected components and cycle finding.
+Specifically you might need the algorithms of [connected components](https://en.wikipedia.org/wiki/Component_(graph_theory)) and [cycle finding](https://en.wikipedia.org/wiki/Cycle_(graph_theory)).
 
 ## Testing
 
