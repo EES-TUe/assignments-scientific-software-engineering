@@ -27,11 +27,10 @@ You should think about how to implement this function efficiently using `numpy` 
 
 ## Testing
 
-You should test the function happy flow and all error conditions.
+You should test the function happy flow in two ways.
 
-* In the happy flow, you should test it in two ways.
-  * You create the input array and expected result manually in the test script self.
-  * You create the input array and expected result in a `json` file. Your test script reads the `json` file and test them.
+* You create the input array and expected result manually in the test script self.
+* You create the input array and expected result in a `json` file. Your test script reads the `json` file and test them.
 
 ## Pull requests
 
