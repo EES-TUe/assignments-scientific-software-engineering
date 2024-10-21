@@ -37,7 +37,7 @@ For teammate:
   * Open the file `pyproject.toml`
   * In the `project` section, change the author `Peter Salemink` and email adress to your own one.
   * Save the file.
-  * Switch to `vscode` version control tab.
+  * Execute the following `git` actions using either command line, or the `vscode` version control tab.
     * Create a new branch.
     * Stage the changes of the files.
     * Commit the changes.
@@ -57,6 +57,6 @@ For team leader:
 
 For both team members:
 
-* Go to `vscode` version control tool.
-* Pull/sync the latest changes in `main`.
-* Delete not needed local branches.
+* Execute the following `git` actions using either command line, or the `vscode` version control tab.
+  * Pull/sync the latest changes in `main`.
+  * Delete not needed local branches.
