@@ -6,3 +6,4 @@ This repository describes assignments of scientific software engineering. See li
 * [Assignment 1: GitHub and GIT](./assignment_1.md)
 * [Assignment 2: root mean square](./assignment_2.md)
 * [Assignment 3: documentation](./assignment_3.md)
+* [Assignment 4: matrix factorization and linear equation](./assignment_4.md)
