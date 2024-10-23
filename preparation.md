@@ -41,3 +41,18 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install -y git python3.12 python3.12-venv python3.12-dev
 ```
+
+## Try with Python
+
+Now we try to run the Python template project to see if it works.
+
+Run the following command to clone and install the project.
+
+```bash
+git clone https://github.com/EES-TUe/ees-scientific-software-engineering.git
+cd ees-scientific-software-engineering
+python3.12 -m venv .venv
+. .venv/bin/activate
+pip install .[dev]
+pytest
+```
