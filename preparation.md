@@ -39,7 +39,7 @@ Run the following command to install the necessary packages. You need to enter t
 ```bash
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y git python3.12 python3.12-venv python3.12-dev
+sudo apt install -y git python3.12 python3.12-venv python3.12-dev wslu
 ```
 
 ## Try with Python
@@ -56,3 +56,10 @@ python3.12 -m venv .venv
 pip install .[dev]
 pytest
 ```
+
+Run the following command to open the coverage report. You should see a coverage report in the browser. Try to play with it.
+
+```bash
+wslview python_cov_html/index.html
+```
+
