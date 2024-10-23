@@ -80,3 +80,13 @@ code .
 ```
 
 You might need to restart the VSCode to see the extensions. After that, go to test tab and run the tests.
+
+### Deactivate and delete project
+
+Now you can deactivate the virtual environment and delete the project.
+
+```bash
+deactivate
+cd ..
+rm -rf ees-scientific-software-engineering
+```
