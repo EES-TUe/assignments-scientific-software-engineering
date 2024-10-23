@@ -10,6 +10,8 @@ Your need Windows 11 or Windows 10 newer than Build 19041. To see your build num
 
 Go to the [VSCode website](https://code.visualstudio.com/) and download/install the latest version of the editor.
 
+You need to install `WSL` extensions in VSCode. Open VSCode, click the `Extensions` icon on the left bar, search for `WSL` and install the extension.
+
 ## Windowns terminal
 
 * Go to the [Microsoft Store](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701) for the Windows Terminal.
@@ -46,6 +48,8 @@ sudo apt install -y git python3.12 python3.12-venv python3.12-dev wslu
 
 Now we try to run the Python template project to see if it works.
 
+### Clone and install project
+
 Run the following command to clone and install the project.
 
 ```bash
@@ -57,9 +61,22 @@ pip install .[dev]
 pytest
 ```
 
+### Coverage report from browser
+
 Run the following command to open the coverage report. You should see a coverage report in the browser. Try to play with it.
 
 ```bash
 wslview python_cov_html/index.html
 ```
 
+### Open VSCode
+
+Run the following command to open the project in VSCode. You can do this for all the folders you want to open in VSCode. For the first time, it will pop up a window to allow the access. Check the `Permanetely allow host ...`, then click `Allow`.
+
+When VSCode opens, you click `Trust Authors`. Also install recommended extensions.
+
+```bash
+code .
+```
+
+You might need to restart the VSCode to see the extensions. After that, go to test tab and run the tests.
