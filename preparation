@@ -1,0 +1,30 @@
+# Preparation
+
+## VSCode
+
+Go to the [VSCode website](https://code.visualstudio.com/) and download/install the latest version of the editor.
+
+## Windowns terminal
+
+* Go to the [Microsoft Store](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701) for the Windows Terminal.
+* Click `View in Store`.
+* Install the Windows Terminal in the Microsoft Store.
+
+## Enable WSL
+
+Open PowerShell as Administrator and run the following command:
+
+```powershell
+wsl --install --distribution Ubuntu-24.04
+```
+
+Allow adminsitrator access when you see pop-up window.
+
+## Set-up Ubuntu
+
+Open the Windows Terminal from start menu, and click the down arrow on the top bar. Select `Ubuntu-24.04` from the dropdown menu. It will take a few minutes to install the Ubuntu.
+
+After it finishes, set username and password for the Ubuntu. Note: when you type the password you do not see anything. Just type and press enter.
+
+
+
