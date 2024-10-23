@@ -12,7 +12,7 @@ Go to the [VSCode website](https://code.visualstudio.com/) and download/install 
 
 You need to install `WSL` extensions in VSCode. Open VSCode, click the `Extensions` icon on the left bar, search for `WSL` and install the extension.
 
-## Windowns terminal
+## Windows terminal
 
 * Go to the [Microsoft Store](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701) for the Windows Terminal.
 * Click `View in Store`.
